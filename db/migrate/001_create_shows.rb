@@ -4,8 +4,8 @@ class CreateShows < ActiveRecord::Migration[5.2]
     create_table :shows do |s|
       s.string :name
       s.string :network
-      t.string :day
-      t.integer :rating
+      s.string :day
+      s.integer :rating
     end
   end
 end
